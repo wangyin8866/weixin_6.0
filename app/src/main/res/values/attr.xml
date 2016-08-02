@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChangeColorWithText">
+        <attr name="wyman_color" format="color" />
+        <attr name="wyman_icon" format="reference" />
+        <attr name="wyman_text" format="string" />
+        <attr name="wyman_text_size" format="dimension" />
+    </declare-styleable>
+</resources>

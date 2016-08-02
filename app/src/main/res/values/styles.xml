@@ -1,0 +1,13 @@
+<resources>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="android:actionOverflowButtonStyle">@style/weiXinActionOverflowButtonStyle</item>
+    </style>
+    <!--改变OverflowButton的图标为自定义图标-->
+<style name="weiXinActionOverflowButtonStyle">
+    <item name="android:src">@mipmap/actionbar_add_icon</item>
+</style>
+
+</resources>
