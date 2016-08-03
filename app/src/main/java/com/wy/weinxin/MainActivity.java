@@ -156,6 +156,24 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
     @Override
     public void onClick(View v) {
+        /**
+         * 与其他点击事件分开，防止调用restOtherTabs();
+         */
+        clickTab(v);
+        /**
+         * 其他点击事件
+         */
+        switch (v.getId()) {
+
+        }
+
+    }
+
+    /**
+     * 点击TAB
+     * @param v
+     */
+    private void clickTab(View v) {
         restOtherTabs();
         switch (v.getId()) {
             case R.id.id_indicator_one:
@@ -176,7 +194,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 break;
 
         }
-
     }
 
     private void restOtherTabs() {
