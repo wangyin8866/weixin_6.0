@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 测试2.0
+ * 测试2.0 wangyin
  */
 public class MainActivity extends FragmentActivity implements View.OnClickListener {
     private ViewPager mViewPager;
