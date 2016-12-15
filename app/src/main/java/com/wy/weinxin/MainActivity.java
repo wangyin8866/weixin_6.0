@@ -15,6 +15,9 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 测试1.0
+ */
 public class MainActivity extends FragmentActivity implements View.OnClickListener {
     private ViewPager mViewPager;
     private List<Fragment> mTabs = new ArrayList<>();
